@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+
+    <link rel="stylesheet" href="styleRPS.css" type="text/css">
+    <script defer src="script2.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center;">
+            ROCK PAPER SCISSORS
+        </h1>
+    </header>
+    <main>
+        <div id="container">
+            <div id="btn-container">
+                <button class="btn"" id=" rock-btn" value="ROCK">ROCK</button>
+                <button class="btn" id="paper-btn" value="PAPER">PAPER</button>
+                <button class="btn" id="scissors-btn" value="SCISSORS">SCISSORS</button>
+            </div>
+            <div id="score-board">
+                <div class="card">
+                    <label for="player-score">PLAYER SCORE</label>
+                    <p id="player-score">0</p>
+                    <label for="player-choice">PLAYER CHOICE</label>
+                    <p class="choice" id="player-choice"></p>
+                </div>
+                <div class="card">
+                    <label for="computer-score">COMPUTER SCORE</label>
+                    <p id="computer-score">0</p>
+                    <label for="computer-choice">COMPUTER CHOICE</label>
+                    <p class="choice" id="computer-choice"></p>
+                </div>
+            </div>
+        </div>
+        <div class="demo-container">
+            <p id="demo"></p>
+            <button id="reset-btn">RESET</button>
+        </div>
+    </main>
+</body>
+
+</html>
